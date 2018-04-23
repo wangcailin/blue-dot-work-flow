@@ -153,7 +153,21 @@
 
 ## 四．	Composer、bower（独立软件包）
 ### Mac:
-因为需要在本地已有（blue-lite框架）项目目录执行`composer、bower`命令进行依赖库的安装，所以Mac不需要安装独立软件包。
+
+> 下载composer.phar
+
+```sh
+php -r "readfile('https://getcomposer.org/installer');" | php
+# 注：如果收到 readfile 错误提示，请使用 http 链接或者在 php.ini 中开启 php_openssl.dll
+```
+
+> 将它放到 usr/local/bin 目录中中，成为全域指令。
+
+```sh
+mv composer.phar /usr/local/bin/composer
+```
+
+
 
 ### Win：
 
