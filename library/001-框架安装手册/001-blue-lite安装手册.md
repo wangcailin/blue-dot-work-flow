@@ -202,6 +202,14 @@ echo @php "%~dp0composer.phar" %*>composer.bat
  * <img src="amWiki/images/图片 68.png" style="zoom:70%" />
  * <img src="amWiki/images/图片 69.png" style="zoom:70%" />
 
+### 命令行：
+> 在项目目录执行
+
+```sh
+# git clone 项目地址
+git clone git@git.blue-dot.cn:wangcailin/blue-lite.git
+```
+
 ### Mac：
 > 打开`Sourcetree` 新建 -> 从URL克隆 -> 添加"源URL"、"目录路径"、"名称"-> 克隆；
 
