@@ -12,12 +12,15 @@
 	1. [Sourcetree客户端SSH秘钥配置（*注：只有windows才需要配置*）：](#Sourcetree客户端SSH秘钥配置（*注：只有windows才需要配置*）： "Sourcetree客户端SSH秘钥配置（*注：只有windows才需要配置*）：")
 1. [四．	Composer、bower（独立软件包）](#四．	Composer、bower（独立软件包） "四．	Composer、bower（独立软件包）")
 	1. [Mac:](#Mac: "Mac:")
-	1. [Win：](#Win： "Win：")
+	1. [Win客户端安装：](#Win客户端安装： "Win客户端安装：")
+	1. [Win命令行安装：](#Win命令行安装： "Win命令行安装：")
 1. [五．	Sourcetree、Git“命令行”与GitLab仓库连结克隆项目到本地](#五．	Sourcetree、Git“命令行”与GitLab仓库连结克隆项目到本地 "五．	Sourcetree、Git“命令行”与GitLab仓库连结克隆项目到本地")
+	1. [命令行：](#命令行： "命令行：")
 	1. [Mac：](#Mac： "Mac：")
 	1. [Win：](#Win： "Win：")
 1. [六．	blue-lite、blue-dot框架安装与使用](#六．	blue-lite、blue-dot框架安装与使用 "六．	blue-lite、blue-dot框架安装与使用")
 	1. [blue-lie：](#blue-lie： "blue-lie：")
+
 
 ## 一. GitLab注册、创建项目
 
