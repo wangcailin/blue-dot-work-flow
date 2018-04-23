@@ -167,27 +167,26 @@ php -r "readfile('https://getcomposer.org/installer');" | php
 mv composer.phar /usr/local/bin/composer
 ```
 
-
-
-### Win：
+### Win客户端安装：
 
 #### ①	安装 composer
 > 下载地址： https://getcomposer.org/Composer-Setup.exe
 
+### Win命令行安装：
 
-#### ②	设置系统的环境变量 PATH 并运行安装命令下载 composer.phar 文件
+#### ①	设置系统的环境变量 PATH 并运行安装命令下载 composer.phar 文件
 ```sh
 php -r "readfile('https://getcomposer.org/installer');" | php
 # 注：如果收到 readfile 错误提示，请使用 http 链接或者在 php.ini 中开启 php_openssl.dll
 
 ```
 
-#### ③	在 composer.phar 同级目录创建composer.bat 文件命令
+#### ②	在 composer.phar 同级目录创建composer.bat 文件命令
 ```sh
 echo @php "%~dp0composer.phar" %*>composer.bat
 ```
 
-#### ④	在 composer.phar 同级目录创建composer.bat 文件命令
+#### ③	在 composer.phar 同级目录创建composer.bat 文件命令
 ```sh
 echo @php "%~dp0composer.phar" %*>composer.bat
 ```
