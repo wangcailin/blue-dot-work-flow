@@ -11,9 +11,10 @@
 	1. [2．在GitLab上增加SSH密钥：](#2．在GitLab上增加SSH密钥： "2．在GitLab上增加SSH密钥：")
 	1. [Sourcetree客户端SSH秘钥配置（*注：只有windows才需要配置*）：](#Sourcetree客户端SSH秘钥配置（*注：只有windows才需要配置*）： "Sourcetree客户端SSH秘钥配置（*注：只有windows才需要配置*）：")
 1. [四．	Composer、bower（独立软件包）](#四．	Composer、bower（独立软件包） "四．	Composer、bower（独立软件包）")
-	1. [Mac:](#Mac: "Mac:")
-	1. [Win客户端安装：](#Win客户端安装： "Win客户端安装：")
-	1. [Win命令行安装：](#Win命令行安装： "Win命令行安装：")
+	1. [Mac composer:](#Mac composer: "Mac composer:")
+	1. [Win客户端安装composer：](#Win客户端安装composer： "Win客户端安装composer：")
+	1. [Win命令行安装composer：](#Win命令行安装composer： "Win命令行安装composer：")
+	1. [Win and Mac安装bower](#Win and Mac安装bower "Win and Mac安装bower")
 1. [五．	Sourcetree、Git“命令行”与GitLab仓库连结克隆项目到本地](#五．	Sourcetree、Git“命令行”与GitLab仓库连结克隆项目到本地 "五．	Sourcetree、Git“命令行”与GitLab仓库连结克隆项目到本地")
 	1. [命令行：](#命令行： "命令行：")
 	1. [Mac：](#Mac： "Mac：")
@@ -155,7 +156,7 @@
  * <img src="amWiki/images/图片 65.png" style="zoom:70%" />
 
 ## 四．	Composer、bower（独立软件包）
-### Mac:
+### Mac composer:
 
 > 下载composer.phar
 
@@ -170,12 +171,12 @@ php -r "readfile('https://getcomposer.org/installer');" | php
 mv composer.phar /usr/local/bin/composer
 ```
 
-### Win客户端安装：
+### Win客户端安装composer：
 
 #### ①	安装 composer
 > 下载地址： https://getcomposer.org/Composer-Setup.exe
 
-### Win命令行安装：
+### Win命令行安装composer：
 
 #### ①	设置系统的环境变量 PATH 并运行安装命令下载 composer.phar 文件
 ```sh
@@ -195,6 +196,15 @@ echo @php "%~dp0composer.phar" %*>composer.bat
 ```
 
  * <img src="amWiki/images/图片 66.png" style="zoom:70%" />
+
+### Win and Mac安装bower
+#### ① 安装nodejs
+> 在[nodejs](http://nodejs.cn/download/?_blank)</a>官网下载系统对应版本并安装
+
+#### ② 安装bower工具
+> 打开命令行，执行 `npm install bower -g`
+
+* <img src="amWiki/images/图片 27.png" style="zoom:80%" />
 
 ## 五．	Sourcetree、Git“命令行”与GitLab仓库连结克隆项目到本地
 
