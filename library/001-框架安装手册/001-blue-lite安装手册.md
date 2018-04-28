@@ -283,6 +283,6 @@ bower install --config.directory=public/assets/libs
 php think install
 ```
 
-> 后端访问地址：http://127.0.0.1(域名)/siemens(品牌名称)/emcc(项名称)/public/admin/
+> 后端访问地址：http://127.0.0.1(域名)/siemens(品牌名称)/public/admin
 
-> 前端访问地址：http://127.0.0.1(域名)/siemens(品牌名称)/emcc(项目名称)/public/index/siemens(品牌名称)/emcc(项目名称)/
+> 前端访问地址：http://127.0.0.1/heruse(品牌)/public/index/vietnm(项目)/index(模块)/index.html(页面)
