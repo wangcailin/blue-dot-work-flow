@@ -269,11 +269,6 @@ bower install --config.directory=public/assets/libs
 php think install
 ```
 
-> 后端访问地址：http://127.0.0.1（(域名)/（项目目录）/public/admin
->> 登录用户名/密码：admin/123456
-
-> 前端访问地址：http:// 127.0.0.1(域名)/
-
 #### Win：
 
 安装Composer、Bower依赖库（**\*注：以下所有的执行命令需要在项目目录操作**）
@@ -283,6 +278,7 @@ bower install --config.directory=public/assets/libs
 php think install
 ```
 
-> 后端访问地址：http://127.0.0.1(域名)/siemens(品牌名称)/public/admin
+> 后端访问地址：http://127.0.0.1(域名)/heruse(品牌)/public/admin
+>> 登录用户名/密码：admin/123456
 
 > 前端访问地址：http://127.0.0.1/heruse(品牌)/public/index/vietnm(项目)/index(模块)/index.html(页面)
